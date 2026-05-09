@@ -140,6 +140,22 @@ for (size_t i = 0; i < opfNodes.GetN(); i++)
  6.3 Define simulation  time.
  6.4 Start the simulation.
 
+## CMakeList file
+libraries to link: 
+``` LIBRARIES_TO_LINK ${liblogging}
+                    ${libofswitch13}
+                    ${libinternet-apps}
+                    ${libmobility}
+                    ${libwifi}
+                    ${libolsr}
+                    ${libhybrid-sdn}
+                    ${libnetanim}
+                    ${libflow-monitor}
+                    ${libryuController}
+                    ${libtap-bridge}
+)
+```
+
 
 
 
