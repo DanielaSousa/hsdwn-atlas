@@ -1,0 +1,35 @@
+/* Modules that can emit log messages. */
+
+VLOG_MODULE(vlog)
+
+VLOG_MODULE(ofl_act_p)
+VLOG_MODULE(ofl_act_u)
+VLOG_MODULE(ofl_act)
+VLOG_MODULE(ofl_exp)
+VLOG_MODULE(ofl_msg_p)
+VLOG_MODULE(ofl_msg_u)
+VLOG_MODULE(ofl_msg)
+VLOG_MODULE(ofl_str_p)
+VLOG_MODULE(ofl_str_u)
+VLOG_MODULE(ofl_str)
+VLOG_MODULE(ofl_util)
+VLOG_MODULE(oxm_match)
+
+VLOG_MODULE(action_set)
+VLOG_MODULE(dp_acts)
+VLOG_MODULE(dp_buf)
+VLOG_MODULE(dp_ctrl)
+VLOG_MODULE(dp_exp)
+VLOG_MODULE(dp_ports)
+VLOG_MODULE(dp)
+VLOG_MODULE(flow_e)
+VLOG_MODULE(flow_t)
+VLOG_MODULE(group_e)
+VLOG_MODULE(group_t)
+VLOG_MODULE(meter_e)
+VLOG_MODULE(meter_t)
+VLOG_MODULE(pipeline)
+
+VLOG_MODULE(dpctl)
+
+#undef VLOG_MODULE
