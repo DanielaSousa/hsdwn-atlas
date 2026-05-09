@@ -142,7 +142,8 @@ for (size_t i = 0; i < opfNodes.GetN(); i++)
 
 ## CMakeList file
 libraries to link: 
-``` LIBRARIES_TO_LINK ${liblogging}
+```cpp
+ LIBRARIES_TO_LINK ${liblogging}
                     ${libofswitch13}
                     ${libinternet-apps}
                     ${libmobility}
